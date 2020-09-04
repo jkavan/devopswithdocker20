@@ -1,0 +1,5 @@
+~/code/devopswithdocker20   master  docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                      PORTS               NAMES
+bf863d87a3b4        nginx               "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp              brave_hawking
+ea39a8716f40        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 2 seconds ago                        practical_sanderson
+330f2cc3565e        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 31 seconds ago                       keen_satoshi
