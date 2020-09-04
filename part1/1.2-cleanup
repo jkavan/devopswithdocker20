@@ -1,0 +1,4 @@
+ ~/code/devopswithdocker20   master  docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ ~/code/devopswithdocker20   master  docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
