@@ -1,0 +1,17 @@
+Commands:
+
+$ docker run -d -it ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+$ docker exec -t 6f4a sh -c 'apt update && apt install curl -y'
+$ docker attach 6f4a
+helsinki.fi
+
+Output:
+
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
