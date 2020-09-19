@@ -1,0 +1,1 @@
+$ docker run -v $(pwd)/logs.txt:/usr/local/backend/logs.txt -p 8000:8000 -it f4c
