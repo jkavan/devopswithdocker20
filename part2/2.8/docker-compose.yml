@@ -38,8 +38,6 @@ services:
       - db
     networks:
       - backend
-    volumes:
-      - ./logs.txt:/usr/local/frontend/logs.txt
     ports:
       - 8000
     environment:
